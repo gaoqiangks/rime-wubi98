@@ -4,7 +4,7 @@
 
 五笔字型 98 版
 
-相关文章：[Rime 五笔 98 配置指南](https://arzx.org/posts/2019-12-27-rime-五笔-98-配置指南.html)
+相关文章：[Rime 五笔 98 配置指南](https://arzyu.github.io/blog/posts/2019-12-27-rime-五笔-98-配置指南.html)
 
 ## 安装
 
