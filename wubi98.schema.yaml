@@ -1,6 +1,6 @@
 schema:
-  schema_id: wubi98
-  name: "五笔98"
+  schema_id: wubi98_frost
+  name: "五笔98_白霜"
   version: "0.1"
   author:
     - 发明人：王永民
@@ -8,7 +8,7 @@ schema:
     五笔字型98版
     按 z 键进入拼音反查
   dependencies:
-    - pinyin_simp
+    - frost
 
 switches:
   - name: ascii_mode
@@ -49,7 +49,7 @@ speller:
   delimiter: " ;'"
 
 translator:
-  dictionary: wubi98
+  dictionary: wubi98_frost
   enable_charset_filter: true
   enable_encoder: true
   encode_commit_history: true
@@ -62,7 +62,7 @@ translator:
     - "^[a-y]{1,2}$"
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: frost
   prefix: "z"
   tips: "〔反查〕"
   preedit_format:
