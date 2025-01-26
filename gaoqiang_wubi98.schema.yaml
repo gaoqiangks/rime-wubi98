@@ -1,6 +1,6 @@
 schema:
-  schema_id: wubi98_rime_frost
-  name: "五笔98_白霜"
+  schema_id: gaoqiang_wubi98
+  name: "五笔98_白霜2"
   version: "0.1"
   author:
     - 发明人：王永民
@@ -49,7 +49,7 @@ speller:
   delimiter: " ;'"
 
 translator:
-  dictionary: wubi98_rime_frost
+  dictionary: gaoqiang_wubi98
   enable_charset_filter: true
   enable_encoder: true
   encode_commit_history: true
